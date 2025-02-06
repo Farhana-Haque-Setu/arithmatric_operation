@@ -9,28 +9,28 @@ function setNumber1() {
   }
   
   function calculateSum() {
-    const num1 = parseFloat(document.getElementById('number1').value) || 0;
-    const num2 = parseFloat(document.getElementById('number2').value) || 0;
+    const num1 = parseFloat(document.getElementById('number1').value) ;
+    const num2 = parseFloat(document.getElementById('number2').value) ;
     const sum = num1 + num2;
     document.getElementById('result').value = `${num1} + ${num2} = ${sum}`;
   }
   
   function calculateSub() {
-    const num1 = parseFloat(document.getElementById('number1').value) || 0;
-    const num2 = parseFloat(document.getElementById('number2').value) || 0;
+    const num1 = parseFloat(document.getElementById('number1').value) ;
+    const num2 = parseFloat(document.getElementById('number2').value) ;
     const sub = num1 - num2;
     document.getElementById('result').value = `${num1} - ${num2} = ${sub}`;
   }
   
   function calculateMul() {
-    const num1 = parseFloat(document.getElementById('number1').value) || 0;
-    const num2 = parseFloat(document.getElementById('number2').value) || 0;
+    const num1 = parseFloat(document.getElementById('number1').value); 
+    const num2 = parseFloat(document.getElementById('number2').value); 
     const mul = num1 * num2;
     document.getElementById('result').value = `${num1} * ${num2} = ${mul}`;
   }
   function calculateDiv() {
-    const num1 = parseFloat(document.getElementById('number1').value) || 0;
-    const num2 = parseFloat(document.getElementById('number2').value) || 0;
+    const num1 = parseFloat(document.getElementById('number1').value) ;
+    const num2 = parseFloat(document.getElementById('number2').value) ;
     const mul = num1 / num2;
     document.getElementById('result').value = `${num1} /${num2} = ${mul}`;
   }
